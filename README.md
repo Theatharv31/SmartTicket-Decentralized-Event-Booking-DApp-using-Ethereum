@@ -1,17 +1,22 @@
 # Tokenmaster
 
+Events Page -
+
+![Screenshot 2024-10-15 091214](https://github.com/user-attachments/assets/ad36a7b9-bf24-4a8b-a01a-bce36a62f4a0)
+
+Seat Mapping Page - 
+
+![Screenshot 2024-10-15 091343](https://github.com/user-attachments/assets/9191167f-8cab-4e24-8510-c435d3e7463d)
+
+
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
 - Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
-- [MetaMask](https://metamask.io/)
+- Hardhat (Development & testing)
+- Ethereum 
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/). Recommended to use the LTS version.
-- Install [MetaMask](https://metamask.io/) on your browser.
 
 ## Setting Up
 ### 1. Clone/Download the Repository
