@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poiret+One&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,11 @@ body {
   font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('./event.jpg'); /* Add the event image here */
+  background-size: cover; /* Make the image cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 /* ------------------------------------------------------ */
@@ -59,12 +65,13 @@ nav {
   background-position-y: center;
   color: var(--clr-white);
 
-  width: 250px;
+  width: 300px;
   height: 35px;
 
   border: none;
   border-radius: 4px;
-  margin: 0 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-left: 30px;
 }
 
@@ -77,6 +84,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 15px;
 
   height: 100%;
 
@@ -95,11 +103,12 @@ nav {
   flex-wrap: wrap;
 
   height: 100%;
+  margin-right: 15px;
   padding: 0 10px;
 
   color: var(--clr-white);
 
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -112,7 +121,7 @@ nav {
   height: 50px;
   margin: 0 75px 0 auto;
 
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(241, 108, 6, 0.642);
   color: var(--clr-white);
 
   border: none;
@@ -164,6 +173,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sort__select {
@@ -176,6 +186,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:black;
+  color: wheat;
 
   cursor: pointer;
 }
@@ -204,9 +216,11 @@ header {
 
   width: 95%;
   max-width: 850px;
-  height: 75px;
+  height: 100px;
 
   margin: 25px auto;
+  color: #FFFFFF;
+  background-color: var(--clr-dark-blue); /* Set background color to white */
 
   position: relative;
   transition: all 250ms ease;
@@ -256,6 +270,7 @@ header {
   font-family: "Open Sans";
   font-size: clamp(0.90rem, 3vw, 1.10rem);
   font-weight: 600;
+  font-style: bold;
 
   text-align: center;
 }
@@ -297,12 +312,13 @@ header {
   width: 125px;
   height: 40px;
 
-  background-color: var(--clr-light-blue);
-  color: var(--clr-white);
+  background-color: yellow;
+  color: black;
 
   margin-left: auto;
   border: none;
   border-radius: 4px;
+
 
   font-family: "Open Sans";
   font-size: 1em;
@@ -312,9 +328,7 @@ header {
   transition: all 250ms ease;
 }
 
-.card__button:hover {
-  background-color: var(--clr-dark-blue);
-}
+
 
 .card__button:hover .card__button {
   border-color: var(--clr-grey-2);
@@ -322,6 +336,7 @@ header {
 
 .card__button--out {
   background-color: #BA1840;
+  color: #FFFFFF;
 }
 
 .card hr {

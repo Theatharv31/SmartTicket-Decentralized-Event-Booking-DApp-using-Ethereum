@@ -57,7 +57,7 @@ function App() {
       <header>
         <Navigation account={account} setAccount={setAccount} />
 
-        <h2 className="header__title"><strong>Event</strong> Tickets</h2>
+        <h2 className="header__title"><strong>Smart</strong>Ticket</h2>
       </header>
 
       <Sort />
